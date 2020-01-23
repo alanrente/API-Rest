@@ -16,18 +16,23 @@ Foi utilizado um ambiente virtual (virtualenv) para realizar o desenvolvimento d
 
 **Para criar um usuário:**
 * chame a rota: /usuarios/novo
+* utilize o método POST
 
 **Para listar todos os usuários:**
 * chame a rota: /usuarios
+* utilize o método GET
 
 **Para listar um usuário especifíco:**
 * chame a rota: /usuarios/ID*
+* utilize o método GET
 
 **Para atualizar um usuário:**
 * chame a rota: /usuarios/ID*
+* utilize o método PUT
 
 **Para deletar um usuário:**
 * chame a rota: /usuarios/ID*
+* utilize o método DELETE
 
 *ID deve ser um inteiro criado na rota "novo" correspondente ao "usuario_id"
 
